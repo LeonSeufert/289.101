@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 
-*{otline: red 1px solid;}
 
 body {
 background-color: #82DDB5;
@@ -64,7 +63,6 @@ h3 {text-align: center;}
     }
 #sponsor_logos  {
    width:50%;
-float:left;
    }
 
 #why {
