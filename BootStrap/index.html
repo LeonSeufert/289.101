@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Layout 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" /> 
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+        
+        <style>
+            * {outline: white 8px solid}
+            
+            
+            /* xs devices */    
+            body { background-color: red }
+            
+            /* sm devices */    
+            @media (min-width: 576px) {      
+                body { background-color: orange }    
+            }
+            
+            /* md devices */
+            @media (min-width: 768px) {
+                body { background-color: yellow }
+                
+                .green {height: 200px;}
+                
+                .orange {height: 100px;}
+            }
+            
+            /* lg device */
+            @media (min-width: 992px) {
+                body { background-color: green }
+                
+                .green{ height: 250px;}
+                
+                .orange{ height: 200px;}
+                
+                .grey{ height: 180px;}
+            }
+            
+            /* xl device */
+            @media (min-width: 1200px) {
+                body { background-color: blue }
+            }
+        </style>
+    </head>
+    
+    <body>
+ 
+    </body>
+</html>
